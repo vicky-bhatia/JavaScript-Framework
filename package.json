@@ -1,0 +1,24 @@
+{
+  "name": "framework",
+  "version": "1.0.0",
+  "description": "Creating a framework for mocha and chai",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio wdio.conf.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/local-runner": "^7.19.5",
+    "@wdio/mocha-framework": "^7.19.5",
+    "@wdio/spec-reporter": "^7.19.5",
+    "chai": "^4.3.6",
+    "chai-webdriverio": "^1.0.0",
+    "chromedriver": "^100.0.0",
+    "wdio-chromedriver-service": "^7.3.2",
+    "webdriverio": "^7.19.5"
+  },
+  "dependencies": {
+    "@wdio/cli": "^7.19.6"
+  }
+}
